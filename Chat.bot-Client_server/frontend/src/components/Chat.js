@@ -18,7 +18,7 @@ function Chat() {
   const handleSend = async (user, message) => {
     if (message.trim()) {
       await sendMessage(user, message);
-      loadMessages(); // Recargar mensajes
+      loadMessages();
     }
   };
 

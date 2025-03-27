@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
-import chatRoutes from './routes/chatRoutes.js';
+import chatRoutes from './routers/chatRoutes.js';
 
 dotenv.config();
 connectDB();
